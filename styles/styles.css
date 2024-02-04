@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Cor de fundo da barra de menu */
+    color: #fff; /* Cor do texto na barra de menu */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra na barra de menu */
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    min-width: 200px; /* Largura mínima do menu */
+}
+
+.navbar-logo {
+    margin-right: auto;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item {
+    margin: 0 15px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Adicione estilos específicos para o conteúdo do seu site abaixo desta linha */
