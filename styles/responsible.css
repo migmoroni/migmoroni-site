@@ -1,0 +1,21 @@
+@media screen and (max-width: 1000px) {
+    #inicio {
+    display: flex;
+    flex-direction: column; /* Mudança para empilhar os elementos em telas menores */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #video-container,
+  #texto-container {
+    width: 100%; /* Volta à configuração original em telas maiores */
+    margin-top: 50px;
+  }
+
+  footer {
+    font-size: 0.8rem; /* Ajusta o tamanho do texto em telas menores se necessário */
+  }
+}
