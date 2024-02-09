@@ -5,20 +5,23 @@ body {
 }
 
 nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Para centralizar verticalmente */
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #333; /* Cor de fundo do menu */
+  background-color: #333;
   z-index: 1000;
-  transition: background-color 0.3s ease; /* Adicionando transição para mudança de cor */
+  transition: background-color 0.3s ease;
 }
 
 nav ul {
   display: flex;
-  justify-content: center;
-  padding: 15px 0;
-  margin: 0;
+  text-align: center;
   list-style: none;
+  padding: 0;
+  margin: 10px;
 }
 
 nav li {
@@ -27,20 +30,24 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #fff; /* Cor do texto do menu */
-  transition: color 0.7s ease; /* Adicionando transição para mudança de cor do texto */
+  color: #fff;
+  transition: color 0.7s ease;
 }
 
 nav a:hover {
-  color: #ffee00; /* Cor do texto ao passar o mouse */
+  color: #ffee00;
 }
 
 nav a.active {
-  color: #ffee00; /* Cor do texto quando a opção está ativa */
+  color: #ffee00;
 }
 
 nav a.clicked {
-  color: #ffee00; /* Cor do texto quando a opção foi clicada */
+  color: #ffee00;
+}
+
+.icon-right {
+  margin-right: 30px; /* Espaçamento entre o menu e o ícone */
 }
 
 
