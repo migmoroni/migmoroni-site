@@ -15,6 +15,17 @@
     margin-top: 50px;
   }
 
+  .projeto {
+    width: calc(100% - 40px); /* Ajuste conforme necessário */
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 2px solid #333;
+    border-style: ridge;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
   footer {
     font-size: 0.8rem; /* Ajusta o tamanho do texto em telas menores se necessário */
   }

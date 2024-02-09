@@ -1,18 +1,19 @@
 /* Para navegadores que suportam a especificação scrollbar-color (Firefox, alguns navegadores Chromium) */
 * {
     scrollbar-color: #333 #f1f1f1;
+    scrollbar-width: 15px;
 }
 
 /* Para navegadores WebKit (Chrome) */
 ::-webkit-scrollbar {
-    width: 6px;
-    border-radius: 6px; /* Adiciona borda arredondada ao scrollbar */
+    width: 15px;
+    border-radius: 0px; /* Adiciona borda arredondada ao scrollbar */
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #333;
     transition: background-color 0.3s ease;
-    border-radius: 6px; /* Adiciona borda arredondada à barra */
+    border-radius: 0px; /* Adiciona borda arredondada à barra */
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -21,7 +22,7 @@
 
 ::-webkit-scrollbar-track {
     background-color: #f1f1f1;
-    border-radius: 6px; /* Adiciona borda arredondada à pista do scrollbar */
+    border-radius: 0px; /* Adiciona borda arredondada à pista do scrollbar */
 }
 
 input::-webkit-reveal { /* Estilo para ocultar o botão de revelação de senha no Webkit */
@@ -30,14 +31,14 @@ input::-webkit-reveal { /* Estilo para ocultar o botão de revelação de senha 
 
 /* Para navegadores Firefox */
 ::-moz-scrollbar {
-    width: 6px;
-    border-radius: 6px;
+    width: 15px;
+    border-radius: 0px;
 }
 
 ::-moz-scrollbar-thumb {
     background-color: #333;
     transition: background-color 0.3s ease;
-    border-radius: 6px;
+    border-radius: 0px;
 }
 
 ::-moz-scrollbar-thumb:hover {
@@ -46,7 +47,7 @@ input::-webkit-reveal { /* Estilo para ocultar o botão de revelação de senha 
 
 ::-moz-scrollbar-track {
     background-color: #f1f1f1;
-    border-radius: 6px;
+    border-radius: 0px;
 }
 
 input::-moz-reveal { /* Estilo para ocultar o botão de revelação de senha no Firefox */
@@ -55,14 +56,14 @@ input::-moz-reveal { /* Estilo para ocultar o botão de revelação de senha no 
 
 /* Para navegadores Blink (Microsoft Edge) */
 ::-ms-scrollbar {
-    width: 6px;
-    border-radius: 6px;
+    width: 15px;
+    border-radius: 0px;
 }
 
 ::-ms-scrollbar-thumb {
     background-color: #333;
     transition: background-color 0.3s ease;
-    border-radius: 6px;
+    border-radius: 0px;
 }
 
 ::-ms-scrollbar-thumb:hover {
@@ -71,7 +72,7 @@ input::-moz-reveal { /* Estilo para ocultar o botão de revelação de senha no 
 
 ::-ms-scrollbar-track {
     background-color: #f1f1f1;
-    border-radius: 6px;
+    border-radius: 0px;
 }
 
 input::-ms-reveal { /* Estilo para ocultar o botão de revelação de senha no Edge */
