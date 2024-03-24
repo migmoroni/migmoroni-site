@@ -25,6 +25,7 @@
     border-radius: 0px; /* Adiciona borda arredondada à pista do scrollbar */
 }
 
+
 input::-webkit-reveal { /* Estilo para ocultar o botão de revelação de senha no Webkit */
     display: none;
 }
