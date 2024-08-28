@@ -68,9 +68,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 40px;
+  padding-left: 50px;
   min-height: 300px;
-  max-width: 1200px;
+  max-width: 500px;
   margin: 0 auto;
   margin-top: 100px;
 }
@@ -86,7 +86,8 @@ a {
 }
 
 #texto-container {
-  flex: 0 0 45%; /* Ajuste conforme necessário */
+  /*flex: 0 0 45%;  Ajuste conforme necessário */
+  flex: auto;
 }
 
 video {
